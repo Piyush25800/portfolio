@@ -20,10 +20,10 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Piyush Sharma — Data Scientist · ML & AI Engineer" },
-      { name: "description", content: "Portfolio of Piyush Sharma — Data Analyst, Data Scientist, and AI/ML Engineer. Projects, experience, and a futuristic peek into modern data work." },
-      { property: "og:title", content: "Piyush Sharma — Data Scientist & AI Engineer" },
-      { property: "og:description", content: "Premium portfolio showcasing ML, AI, and analytics projects." },
+      { title: "Piyush Bhajikhaye — Data Analyst & Data Scientist" },
+      { name: "description", content: "Portfolio of Piyush Bhajikhaye — Data Analyst, Business Analyst and Data Scientist. Explore projects in data analysis, machine learning, SQL, Python, Power BI and AI." },
+      { property: "og:title", content: "Piyush Bhajikhaye — Data Analyst, Data Science & AI Engineer" },
+      { property: "og:description", content: "Portfolio showcasing data analysis, business analytics and data science projects using Python, SQL, Power BI, Machine Learning and AI." },
     ],
   }),
 });
