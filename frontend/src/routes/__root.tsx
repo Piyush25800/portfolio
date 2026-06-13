@@ -72,10 +72,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Piyush Sharma — Data Scientist & AI Engineer" },
+      { title: "Piyush Bhajikhaye — Data Analyst" },
       { name: "description", content: "Premium portfolio showcasing Data Analytics, ML, and AI projects." },
-      { name: "author", content: "Piyush Sharma" },
-      { property: "og:title", content: "Piyush Sharma — Data Scientist & AI Engineer" },
+      { name: "author", content: "Piyush Bhajikhaye" },
+      { property: "og:title", content: "Piyush Bhajikhaye — Data Analyst" },
       { property: "og:description", content: "Premium portfolio showcasing Data Analytics, ML, and AI projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
