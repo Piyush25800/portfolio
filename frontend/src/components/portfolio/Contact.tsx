@@ -25,7 +25,7 @@ export function Contact() {
     }
     setSubmitting(true);
     try {
-      const res = await fetch((import.meta.env.VITE_CONTACT_API_URL as string) || "https://portfolio-backend-i12w.onrender.com", {
+      const res = await fetch((import.meta.env.VITE_CONTACT_API_URL as string) || "https://portfolio-backend-i12w.onrender.com/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
